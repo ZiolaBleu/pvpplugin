@@ -1,0 +1,10 @@
+.gradle/
+build/
+.idea/
+*.iml
+__pycache__/
+*.pyc
+data/
+*.sqlite*
+.env
+private-session*.json
