@@ -6,7 +6,7 @@ import zipfile
 root = Path(__file__).resolve().parents[1]
 output = root.parent / 'pvp-tournament.zip'
 files = []
-for name in ('src', 'server', 'docs', 'scripts', 'gradle', '.github', 'third-party'):
+for name in ('src', 'server', 'docs', 'scripts', 'gradle', '.github', 'third-party', 'submission'):
     for path in (root / name).rglob('*'):
         if path.is_file() and '__pycache__' not in path.parts and path.suffix != '.pyc':
             files.append((path, path.relative_to(root)))

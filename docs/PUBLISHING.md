@@ -1,6 +1,7 @@
 # GitHub and RuneLite Plugin Hub
 
 Source repository: [ZiolaBleu/pvpplugin](https://github.com/ZiolaBleu/pvpplugin).
+The plugin files were uploaded and verified on the repository's `main` branch.
 This is development software; it is not yet listed in the Plugin Hub.
 Complete `TESTING.md`, including two-client testing and a shared HTTPS deployment,
 before requesting public review. No public service is bundled.
@@ -31,6 +32,11 @@ commit=FULL_40_CHARACTER_TESTED_COMMIT_SHA
 
 Replace the commit placeholder with the full tested commit SHA. Open a pull request against
 `runelite/plugin-hub:master`; suggested description:
+
+The package includes `submission/plugins/pvp-tournament` pinned to the uploaded
+feature commit and `submission/PR_BODY.md` with a review description. Copy the
+manifest into your Plugin Hub fork after completing manual validation; if any
+code changes, update the pinned commit and rerun checks first.
 
 > Adds PvP Tournament: private room codes, opt-in registration, single-elimination
 > brackets, byes and organizer-confirmed match progression. Requires a trusted

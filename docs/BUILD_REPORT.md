@@ -24,6 +24,9 @@ Not performed: interactive RuneLite acceptance, live fights, a multi-computer
 HTTPS deployment or Plugin Hub submission. No review or listing is claimed.
 After the initial package was produced, the maintainer provided the public
 repository `https://github.com/ZiolaBleu/pvpplugin` for source publication.
+All 32 initial package files were uploaded and verified on `main` at commit
+`2c0306adb0bc594c6ca2c80665bcf74b3282ee05`. A subsequent documentation update
+adds the prepared Plugin Hub manifest and review description.
 
 Follow `TESTING.md` before public submission. The compiled JAR is included under
 `dist/` for inspection; it requires RuneLite and is not a standalone installer.
