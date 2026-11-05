@@ -3,6 +3,8 @@
 Source repository: [ZiolaBleu/pvpplugin](https://github.com/ZiolaBleu/pvpplugin).
 The plugin files were uploaded and verified on the repository's `main` branch.
 This is development software; it is not yet listed in the Plugin Hub.
+Submission is open at https://github.com/runelite/plugin-hub/pull/20151 and its
+upstream build check passed. Maintainer review and listing are still pending.
 Complete `TESTING.md`, including two-client testing and a shared HTTPS deployment,
 before requesting public review. No public service is bundled.
 
@@ -22,7 +24,9 @@ Actions build. Document actual manual test results in the submission.
 The [official submission guide](https://github.com/runelite/plugin-hub#submitting-a-plugin)
 requires a fork of `runelite/plugin-hub` and a new file `plugins/pvp-tournament`
 on a submission branch. The connected GitHub tools do not expose forking;
-create your fork at https://github.com/runelite/plugin-hub/fork.
+The maintainer created https://github.com/ZiolaBleu/plugin-hub, and the submission
+uses its `add-pvp-tournament` branch. For a future independent submission,
+create a fork at https://github.com/runelite/plugin-hub/fork.
 After manual validation, the manifest should contain exactly:
 
 ```properties
